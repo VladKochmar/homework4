@@ -1,0 +1,180 @@
+/* &display=swap&subset=cyrillic-ext */
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans+Malayalam:regular,600,700,900&display=swap&subset=cyrillic-ext);
+@font-face {
+	font-family: "Appetite";
+	src: url("../fonts/Appetite-Italic.woff2") format("woff2"), url("../fonts/Appetite-Italic.woff") format("woff");
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+
+@font-face {
+	font-family: "Appetite";
+	src: url("../fonts/Appetite.woff2") format("woff2"), url("../fonts/Appetite.woff") format("woff");
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+/* ОБНУЛЕНИЕ СТИЛЕЙ */
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+li {
+	list-style: none;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+html {
+	font-size: 16px; /* по умолчанию */
+}
+body {
+	font-family: "Noto Sans Malayalam", sans-serif;
+	line-height: 1.25;
+}
+/* ------------------------------ */
+
+h1 {
+	font-size: 36px;
+	text-align: center;
+	font-family: Appetite, serif;
+	color: #6699cc;
+	text-shadow: 3px 0px 1px #6600ff;
+}
+
+h2 {
+	font-size: 28px;
+	text-align: center;
+	font-family: Appetite, serif;
+	font-style: italic;
+	color: #606e8c;
+	text-shadow: 1px 1px 1px #6600ff;
+}
+
+h3 {
+	font-size: 22px;
+	font-family: Appetite, serif;
+	font-style: italic;
+	color: #5f9ea0;
+}
+
+h4 {
+	font-size: 20px;
+	font-family: Appetite, serif;
+	font-style: italic;
+	color: #543964;
+	text-shadow: 1px 2px 2px #6699cc;
+}
+
+h5 {
+	font-size: 18px;
+	font-weight: 900;
+	text-transform: uppercase;
+	color: #c93c20;
+}
+
+.list {
+	font-weight: 900;
+}
+
+.sublist {
+	font-weight: 600;
+}
+
+.list ul {
+	font-weight: 400;
+}
+
+.percent {
+	color: #76ce1f;
+	font-weight: 700;
+}
+
+.characteristic p {
+	text-indent: 10px;
+}
+
+.general {
+	text-transform: capitalize;
+}
+
+.general a {
+	text-decoration: underline;
+}
+
+.seas {
+	word-spacing: 15px;
+	font-weight: 700;
+}
+
+.seas .percent {
+	color: chocolate;
+}
+
+.islands h3 {
+	letter-spacing: 10px;
+}
+
+.islands ul {
+	text-indent: 15px;
+	color: #bc5d58;
+}
+
+.num {
+	color: crimson;
+	font-weight: 700;
+}
+
+.shaping .num,
+.shaping .mainland {
+	color: darkmagenta;
+	font-weight: 900;
+}
+
+.transition p + * {
+	color: darkred;
+}
+
+.climate h3 {
+	text-align: center;
+	letter-spacing: 30px;
+	text-shadow: 20px 0px 1px #6699cc;
+}
+
+.climate {
+	color: #556832;
+	word-spacing: -2px;
+	line-height: 2;
+	font-weight: 600;
+}
+
+.oblique {
+	font-style: oblique;
+	color: blue;
+}
+
+.literature {
+	color: #9b4d16;
+	line-height: 2;
+}
